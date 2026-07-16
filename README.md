@@ -4,6 +4,20 @@ MIXD. is an open-source, print-ready phone-case customizer. A customer chooses a
 
 The studio shows an Indian-rupee estimate only. It has no checkout and no account system.
 
+## Product preview
+
+<p align="center">
+  <img src="docs/media/mixd-home.webp" alt="MIXD homepage showing three custom phone-case concepts and the design call to action" width="100%" />
+</p>
+
+<p align="center"><sub>Product homepage · responsive case concepts · INR pricing</sub></p>
+
+<p align="center">
+  <img src="docs/media/mixd-studio.webp" alt="MIXD Studio showing a cobalt iPhone case, layered artwork, and text rotated to 90 degrees" width="100%" />
+</p>
+
+<p align="center"><sub>Live Studio · free positioning and rotation · 2400 × 4800 transparent print master</sub></p>
+
 ## What is included
 
 - Responsive product homepage and touch-friendly design studio
