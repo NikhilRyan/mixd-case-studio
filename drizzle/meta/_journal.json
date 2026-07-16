@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1784146907239,
+      "tag": "0000_spicy_captain_universe",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784149419446,
+      "tag": "0001_curious_blue_shield",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1784214215311,
+      "tag": "0002_omniscient_fallen_one",
+      "breakpoints": true
+    }
+  ]
+}

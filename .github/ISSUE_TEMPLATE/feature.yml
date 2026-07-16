@@ -1,0 +1,30 @@
+name: Feature request
+description: Propose a focused improvement
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Explain the user need before proposing implementation details.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe the smallest useful behavior and any alternatives considered.
+    validations:
+      required: true
+  - type: dropdown
+    id: contract
+    attributes:
+      label: Contract impact
+      options:
+        - No public contract change
+        - Device catalogue or print contract
+        - API or database contract
+        - Privacy or security behavior
+    validations:
+      required: true

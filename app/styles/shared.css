@@ -1,0 +1,30 @@
+/* Shared design */
+.shared-shell { min-height: 100dvh; background: #e6e1d8; }
+.shared-nav { height: 68px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 0 28px; border-bottom: 1px solid var(--line); background: var(--paper); }
+.shared-nav > span { text-transform: uppercase; font: 650 8px/1 var(--font-geist-mono), monospace; letter-spacing: 0.12em; }
+.shared-nav > a:last-child { justify-self: end; color: var(--ink); font-size: 10px; font-weight: 750; }
+.shared-grid { min-height: calc(100dvh - 68px); display: grid; grid-template-columns: minmax(330px, 0.72fr) 1.28fr; }
+.shared-story { padding: clamp(38px, 6vw, 88px); display: flex; flex-direction: column; justify-content: center; background: var(--paper); border-right: 1px solid var(--line); }
+.shared-kicker { color: var(--red); text-transform: uppercase; font: 700 9px/1 var(--font-geist-mono), monospace; letter-spacing: 0.12em; }
+.shared-story h1 { margin: 16px 0 21px; font-size: clamp(52px, 6vw, 92px); line-height: 0.82; letter-spacing: -0.09em; }
+.shared-story h1 em { color: var(--red); font-family: Georgia, serif; font-weight: 400; }
+.shared-story > p { max-width: 48ch; margin: 0 0 28px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.shared-story dl { margin: 0; border-top: 1px solid var(--line); }
+.shared-story dl > div { display: flex; justify-content: space-between; gap: 15px; padding: 11px 0; border-bottom: 1px solid var(--line); font-size: 10px; }
+.shared-story dt { color: var(--muted); }
+.shared-story dd { margin: 0; text-align: right; font-weight: 750; }
+.shared-ref { display: grid; gap: 4px; margin: 22px 0; padding: 14px; border-radius: 10px; background: var(--lime); }
+.shared-ref span { text-transform: uppercase; font: 650 8px/1 var(--font-geist-mono), monospace; }
+.shared-ref b { font-size: 22px; letter-spacing: -0.05em; }
+.shared-ref small { color: rgba(21,21,21,0.55); font-size: 8px; }
+.shared-cta { display: flex; justify-content: space-between; align-items: center; border-radius: 10px; background: var(--ink); color: white; padding: 14px 16px; text-decoration: none; font-size: 11px; font-weight: 750; }
+.shared-cta span { color: var(--lime); font-size: 17px; }
+.shared-preview { min-width: 0; display: grid; place-items: center; overflow: hidden; background-image: linear-gradient(rgba(21,21,21,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(21,21,21,0.05) 1px, transparent 1px); background-size: 30px 30px; }
+.shared-preview .preview-stage { height: calc(100dvh - 68px); }
+.not-found-shell { min-height: 100dvh; padding: 34px; display: flex; flex-direction: column; justify-content: space-between; background: var(--ink); color: white; }
+.not-found-shell .brand-mark { color: white; }
+.not-found-shell > div { max-width: 800px; padding-bottom: 7vh; }
+.not-found-shell > div > span { color: var(--lime); font: 700 10px/1 var(--font-geist-mono), monospace; text-transform: uppercase; }
+.not-found-shell h1 { margin: 18px 0; font-size: clamp(70px, 12vw, 170px); line-height: 0.76; letter-spacing: -0.1em; }
+.not-found-shell p { color: rgba(255,255,255,0.55); }
+.not-found-shell > div > a { display: inline-block; margin-top: 15px; border-radius: 999px; background: var(--lime); color: var(--ink); padding: 13px 17px; text-decoration: none; font-weight: 750; }
