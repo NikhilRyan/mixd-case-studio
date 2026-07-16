@@ -1,5 +1,8 @@
 # MIXD. Case Studio
 
+[![CI](https://github.com/NikhilRyan/mixd-case-studio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/NikhilRyan/mixd-case-studio/actions/workflows/ci.yml)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 MIXD. is an open-source, print-ready phone-case customizer. A customer chooses a supported device and case finish, positions text, stickers, or uploaded images at any angle, previews the case in 3D, and creates an unlisted link containing the exact saved design.
 
 The studio shows an Indian-rupee estimate only. It has no checkout and no account system.
@@ -34,12 +37,13 @@ The studio shows an Indian-rupee estimate only. It has no checkout and no accoun
 
 Prerequisites:
 
-- Node.js 22.13 or newer (`.nvmrc` is included)
+- Node.js 22.13 or newer (`.nvmrc` pins the tested Node.js 22 LTS release)
 - npm 10 or newer
 
 From the project root:
 
 ```bash
+nvm install
 nvm use
 npm ci
 npm run dev
@@ -63,6 +67,7 @@ npm run check
 | `npm test` | Run deterministic unit and contract tests |
 | `npm run build` | Produce the Cloudflare Worker bundle in `dist/` |
 | `npm run check` | Type-check, lint, test, and build |
+| `npm run audit:prod` | Fail on moderate-or-higher production dependency advisories |
 | `npm run db:generate` | Generate an additive Drizzle migration after a schema change |
 
 ## How the system works

@@ -6,9 +6,9 @@ Security fixes are applied to the latest code on the default branch. Pre-release
 
 ## Reporting a vulnerability
 
-Do not open a public issue for a suspected vulnerability. After this project is published on GitHub, use the repository’s private security-advisory form under **Security → Advisories → New draft advisory**. Include reproduction steps, affected routes, impact, and a minimal proof of concept without real user data.
+Do not open a public issue for a suspected vulnerability. Use the repository’s private vulnerability-reporting form under **Security**. Include reproduction steps, affected routes, impact, and a minimal proof of concept without real user data.
 
-If private advisories are not yet enabled, contact the repository owner through a private channel and wait for acknowledgement before disclosure. Do not test against systems or data you do not own.
+Wait for acknowledgement before disclosure, and do not test against systems or data you do not own.
 
 ## Security model
 

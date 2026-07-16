@@ -4,12 +4,12 @@ Thank you for improving MIXD. Keep changes small, backward-compatible, and easy 
 
 ## Local workflow
 
-1. Use Node.js 22.13 or newer and npm 10 or newer.
+1. Run `nvm install && nvm use` to select the tested Node.js 22 LTS release.
 2. Install exactly the locked dependencies with `npm ci`.
 3. Create a focused branch in your own Git workflow.
 4. Run the site with `npm run dev` and use only `http://localhost:3000`.
 5. Add tests for changed behavior. Do not weaken an existing assertion to accommodate a regression.
-6. Run `npm run check` before requesting review.
+6. Run `npm run check` and `npm run audit:prod` before requesting review.
 
 ## Change guidelines
 
