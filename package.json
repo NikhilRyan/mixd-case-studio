@@ -46,7 +46,7 @@
     "postcss": "8.5.19",
     "react-server-dom-webpack": "19.2.7",
     "tsx": "4.22.1",
-    "typescript": "5.9.3",
+    "typescript": "7.0.2",
     "vinext": "0.0.50",
     "vite": "8.1.5",
     "wrangler": "4.111.0"
