@@ -44,7 +44,7 @@
     "drizzle-kit": "0.31.10",
     "eslint": "9.39.5",
     "eslint-config-next": "16.2.10",
-    "postcss": "8.5.19",
+    "postcss": "8.5.23",
     "react-server-dom-webpack": "19.2.7",
     "tsx": "4.23.1",
     "typescript": "5.9.3",
