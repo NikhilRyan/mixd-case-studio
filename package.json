@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
-    "next": "16.2.10",
+    "next": "16.3.4",
     "react": "19.2.7",
     "react-dom": "19.2.7"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.45.0",
+    "@cloudflare/vite-plugin": "1.54.7",
     "@cloudflare/workers-types": "5.20260716.1",
     "@types/node": "22.19.19",
     "@types/react": "19.2.17",
@@ -50,7 +50,7 @@
     "typescript": "5.9.3",
     "vinext": "0.2.1",
     "vite": "8.1.5",
-    "wrangler": "4.111.0"
+    "wrangler": "4.131.0"
   },
   "overrides": {
     "postcss": "$postcss"
